@@ -1,6 +1,11 @@
-# Express Server
+# Requirement
+## Authenication
+1."/signup" - create new account
+2."/login" - login user
 
-This repository contains backend services and APIs.
+## Students
 
-## Services
-- [student-api](./student-api): REST API for Student Management built with Express, MongoDB/Mongoose, and Node.js.
+1. "/students" - get all student information (GET)
+2. "/student" - create news student information(POST)
+3. "/student" - update student record(PUT)
+4. "/student" - delete a student record(DELETE) 
